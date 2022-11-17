@@ -1,0 +1,124 @@
+hornet tools p2identity-gen 
+
+-------------------------------------------
+Coordinator node
+
+-----BEGIN PRIVATE KEY-----
+MC4CAQAwBQYDK2VwBCIEIB9G+tT1OKAx1Ph/SQ9rykMZ39AwdjaldZoiteiHS9YI
+-----END PRIVATE KEY-----
+
+Your p2p private key (hex)  :   1f46fad4f538a031d4f87f490f6bca4319dfd0307636a5759a22b5e8874bd608f9156ba976a12918c16a481c38c88a7b5351b769adc30390e93b6c0a63b09b79
+Your p2p PeerID: 12D3KooWSagdVaCrS14GeJhM8CbQr41AW2PiYMgptTyAybCbQuEY
+
+
+--------------------------------------------
+
+AWS Node 1 - 3.225.22.160 ou 172.31.26.41
+
+Your p2p private key (hex):    32b251668db21e76db09153e5aa74be06fba6ccf2e928d1d7d07d873fb049e29fd02c42c2c9a956477f15f612aad36a6b911f17bc1397491e4e01bb4ab90029b
+Your p2p public key (hex):     fd02c42c2c9a956477f15f612aad36a6b911f17bc1397491e4e01bb4ab90029b
+Your p2p public key (base58):  J2ebTRir9HLQn4pGYvCesuYgaP16V5fMGdHZFrNsjfKY
+Your p2p PeerID:               12D3KooWSr1mCZJZLBbuBxKhBWwzehdX4i3jWmjqEDeadqXmdc3U
+
+-----BEGIN PRIVATE KEY-----
+MC4CAQAwBQYDK2VwBCIEIDKyUWaNsh522wkVPlqnS+BvumzPLpKNHX0H2HP7BJ4p
+-----END PRIVATE KEY-----
+--------------------------------------------
+
+AWS Node 2 - 3.85.66.248 ou 172.31.81.70
+
+Your p2p peerID: 12D3KooWGdr8M5KX8KuKaXSiKfHJstdVnRkadYmupF7tFk2HrRoA
+
+Node pv 4 -172.31.80.29
+
+Your p2p private key (hex):    fe243e0faa31893199300e8a9812a07fee0bc9fa480b2d7fadb709408b8b3d465fcf9b09574e52d2d62e20259e19a6aa9531ecb70555efddde378dd06e1cb5be
+Your p2p public key (hex):     5fcf9b09574e52d2d62e20259e19a6aa9531ecb70555efddde378dd06e1cb5be
+Your p2p public key (base58):  7T1LeXhfTBwj9dcwVBo1yGmVkncd5tauYgbV1XHHkG7F
+Your p2p PeerID:               12D3KooWGGNWPfHNe6DDZX8N7nYMk4rLF7fG7afPWGxWPWSBeCqB
+
+-----BEGIN PRIVATE KEY-----
+MC4CAQAwBQYDK2VwBCIEIP4kPg+qMYkxmTAOipgSoH/uC8n6SAstf623CUCLiz1G
+-----END PRIVATE KEY-----
+
+Node pv 5 - 172.31.88.43
+
+Your p2p private key (hex):    9e8a3dfcb56f70a4d899b093aa3eb6392ef7ac22468894fc6203326ae1c17dcbcfff9cdac988ba7dacbbce4c4d7f44e45bf700b364e5df2a62be7c8f988a1e67
+Your p2p public key (hex):     cfff9cdac988ba7dacbbce4c4d7f44e45bf700b364e5df2a62be7c8f988a1e67
+Your p2p public key (base58):  EzwTbnWdQmWGnFboPqVpSfa4mrZTpGFZjg37i9Qj1iYW
+Your p2p PeerID:               12D3KooWPpJdLv6LbfmmC97E2SFADTeuGBc6qxL3hGQ968ZcufGS
+
+-----BEGIN PRIVATE KEY-----
+MC4CAQAwBQYDK2VwBCIEIJ6KPfy1b3Ck2Jmwk6o+tjku96wiRoiU/GIDMmrhwX3L
+-----END PRIVATE KEY-----
+
+--------------------------------------------
+Node pv6 - 172.31.81.183 Peer : node 3 - 3.225.22.160
+
+-----BEGIN PRIVATE KEY-----
+MC4CAQAwBQYDK2VwBCIEIA0ZyaZKDUhUx2SPohoq8/XkylmG5gMkeYjXufPN3Vba
+-----END PRIVATE KEY-----
+
+Your p2p private key (hex):    0d19c9a64a0d4854c7648fa21a2af3f5e4ca5986e603247988d7b9f3cddd56da414095f69f14679fa54f015c38a23e97a8ecab034ea211f6c55943bd913a6582
+Your p2p public key (hex):     414095f69f14679fa54f015c38a23e97a8ecab034ea211f6c55943bd913a6582
+Your p2p public key (base58):  5PicytNxHfsb9gedN66ZjVCxyLt79QPhJ3jcH1Rmcc73
+Your p2p PeerID:               12D3KooWED5nj1xfUa95ZaA3zgquWHHoTfvkB6UBFe6dezafWYpy
+
+
+------------------------------------------
+node pv7 - 172.31.95.35 ; Peer node 3
+
+-----BEGIN PRIVATE KEY-----
+MC4CAQAwBQYDK2VwBCIEIIWkivgMt7H5OG9w2d4DYlXk1EgMt6EgkDBAfMB3UsAD
+-----END PRIVATE KEY-----
+
+
+Your p2p private key (hex):    85a48af80cb7b1f9386f70d9de036255e4d4480cb7a1209030407cc07752c003e10154c5aac3b36f94cf4d0d40106ee4237d5e91ac61e8024207ef3107b461e8
+Your p2p public key (hex):     e10154c5aac3b36f94cf4d0d40106ee4237d5e91ac61e8024207ef3107b461e8
+Your p2p public key (base58):  G9KujmNUwEmS4tsp6Y5KSmmSAq8B8M9bJUTYVwYTNCt7
+Your p2p PeerID:               12D3KooWQxh5UtxC892vUnPEj8pfDZrGfAApA3E5G4pZsvhMG9c3
+
+
+
+
+
+----------------------------------------
+node pv8 - 172.31.86.18 ; Peer node 3
+
+-----BEGIN PRIVATE KEY-----
+MC4CAQAwBQYDK2VwBCIEINH8+aLZNPex7hO5RloVcdmokLa/rUltNLmptyyc8g85
+-----END PRIVATE KEY-----
+
+
+Your p2p private key (hex):    d1fcf9a2d934f7b1ee13b9465a1571d9a890b6bfad496d34b9a9b72c9cf20f39ff9d901a70737826ec566fd3a5dda26250a67bfc18298630b5d08efc1d4b6950
+Your p2p public key (hex):     ff9d901a70737826ec566fd3a5dda26250a67bfc18298630b5d08efc1d4b6950
+Your p2p public key (base58):  JCpK7n7qEQobXp5mejU93qzKe6iu9AS4MKQqyJQg8uHy
+Your p2p PeerID:               12D3KooWT2BUruhYRK55whbCHLDUpe5A8RmYArWYJumsMHZa2r1u
+
+
+
+
+-----------------------------------------
+node pv 9 - 172.31.93.182
+
+-----BEGIN PRIVATE KEY-----
+MC4CAQAwBQYDK2VwBCIEINZvep+OybiAXCkqE8+ctmdCgHIWIlYSvUA385IPXf2o
+-----END PRIVATE KEY-----
+
+Your p2p private key (hex):    d66f7a9f8ec9b8805c292a13cf9cb66742807216225612bd4037f3920f5dfda878e269aaf18b15639acc3dff4f2dbafd1c905373470774898f330d2978eca0c8
+Your p2p public key (hex):     78e269aaf18b15639acc3dff4f2dbafd1c905373470774898f330d2978eca0c8
+Your p2p public key (base58):  98tAXoQ667WDaHT1JcWPrJySqHJSyevwrCw3uRZ2R3aw
+Your p2p PeerID:               12D3KooWHxFLGvyoH1mhzAxRwDFjd74HKcM61M1RooJ5HQhvJzJs
+
+
+
+----------------------------------------
+node pv 10 - Nodes: node pv9 et node AWS 2
+
+-----BEGIN PRIVATE KEY-----
+MC4CAQAwBQYDK2VwBCIEIBZwKwoUrl/x1tYu+yKa5H59ncRW84BeXuMN803YxKdp
+-----END PRIVATE KEY-----
+
+Your p2p private key (hex):    16702b0a14ae5ff1d6d62efb229ae47e7d9dc456f3805e5ee30df34dd8c4a7690ed1d011b7d46eb4a6b4a0be7875dec6b17659362c8873cbee82b02384322202
+Your p2p public key (hex):     0ed1d011b7d46eb4a6b4a0be7875dec6b17659362c8873cbee82b02384322202
+Your p2p public key (base58):  zrGW1ycAqSVGt6TdbTFuATC91tuje48QtAzARTrFT2Z
+Your p2p PeerID:               12D3KooWApDSF9ZKMjhygmbtGCCbfxY2dLwYmL8cNUY1YQck9PkV
