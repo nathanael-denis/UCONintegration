@@ -1,0 +1,38 @@
+<Policy xmlns="urn:oasis:names:tc:xacml:2.0:policy:schema:os" PolicyId="HumidityPolicy" RuleCombiningAlgId="urn:oasis:names:tc:xacml:3.0:rule-combining-algorithm:permit-overrides" Version="1.0">
+<Target><AnyOf><AllOf>
+	<Match MatchId="urn:oasis:names:tc:xacml:1.0:function:string-equal">
+	<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">atoi1qztx22lp5n69f4etlr6600qcdswrj8terzkga65msddc3sh4sdx02rxjqsq</AttributeValue>
+	<AttributeDesignator AttributeId="urn:oasis:names:tc:xacml:1.0:subject:subject-id" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" DataType="http://www.w3.org/2001/XMLSchema#string" MustBePresent="true"/>
+</Match>
+</AllOf></AnyOf></Target>
+<Rule Effect="Permit" RuleId="check-amount">
+<Description>Check if transaction value matches the data value</Description>
+<Target><AnyOf><AllOf>
+	<Match MatchId="urn:oasis:names:tc:xacml:1.0:function:integer-equal">
+	<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#integer">1000000</AttributeValue>
+	<AttributeDesignator AttributeId="http://iotawucon/nbiotas" Category="http://iotawucon/category" DataType="http://www.w3.org/2001/XMLSchema#string" MustBePresent="true"/>
+	</Match></AllOf></AnyOf></Target>
+	<AdviceExpressions><AdviceExpression AdviceId="permit-amount" AppliesTo="Permit">
+		<AttributeAssignmentExpression AttributeId="urn:oasis:names:tc:xacml:2.0:example:attribute:text">
+		<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">The amount of iotas paid is correct</AttributeValue>
+	</AttributeAssignmentExpression></AdviceExpression></AdviceExpressions>
+</Rule>
+<Rule Effect="Permit" RuleId="check-owner">
+	<Description>Check if the data owner is the transaction destination</Description>
+	<Target><AnyOf><AllOf>
+       <Match MatchId="urn:oasis:names:tc:xacml:1.0:function:integer-equal">
+       <AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">atoi1qpty45svr0r5s9nxatzaszkde8syt4etrsmea50pmc3l2swyskc0q8wlpjs</AttributeValue>
+       <AttributeDesignator AttributeId="urn:oasis:names:tc:xacml:1.0:subject:subject-id" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" DataType="http://www.w3.org/2001/XMLSchema#string" MustBePresent="true"/>
+       </Match></AllOf></AnyOf></Target>
+</Rule>
+<Rule Effect="Permit" RuleId="no-dissemination" Fulfill-phase="ongoing-access">
+	<Description> Check if data is disseminated during access </Description>
+	<Target> <Subjects><AnySubject/></Subjects>
+	<Resources><AnyResource/></Resources> 
+		<Action> <ActionMatch MatchId="equal">
+		<AttrValue>Dissemination</AttrValue> 
+		<ActionAttrDesignator AttrId="action-diss"/>
+		</ActionMatch></Action></Target>
+</Rule>
+ <Rule RuleId="deny-rule" Effect="Deny"/>
+</Policy>
